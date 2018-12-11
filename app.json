@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/training/training"
+  ],
+
+  "window": {
+    "backgroundColor": "#eee",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f85f48",
+    "navigationBarTitleText": "豫驾 - 道路安全教育",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  
+  "tabBar": {
+    "color": "#231815",
+    "selectedColor": "#f85f48",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/training/training",
+      "text": "培训",
+      "iconPath": "images/audient.png",
+      "selectedIconPath": "images/audient1.png"
+    }, {
+      "pagePath":"pages/user/user",
+      "text": "个人中心",
+      "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine1.png"
+    }]
+  }
+}
