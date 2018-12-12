@@ -22,10 +22,10 @@
     "backgroundColor": "#f9f9f9",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "安全考察"
     }, {
       "pagePath": "pages/training/training",
-      "text": "培训",
+      "text": "安全培训",
       "iconPath": "images/audient.png",
       "selectedIconPath": "images/audient1.png"
     }, {
