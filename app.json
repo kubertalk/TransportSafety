@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/training/training",
+    "pages/exam/exam",
     "pages/login/login",
-    "pages/user/user",
-    "pages/training/training"
+    "pages/user/user"
+    
+    
   ],
 
   "window": {
@@ -20,19 +22,22 @@
     "selectedColor": "#f85f48",
     "borderStyle": "white",
     "backgroundColor": "#f9f9f9",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "安全考察"
-    }, {
+    "list": [
+    {
       "pagePath": "pages/training/training",
       "text": "安全培训",
-      "iconPath": "images/audient.png",
-      "selectedIconPath": "images/audient1.png"
+      "iconPath": "images/training.png",
+      "selectedIconPath": "images/training-sel.png"
+    },{
+      "pagePath": "pages/exam/exam",
+      "text": "安全考试",
+      "iconPath": "images/exam.png",
+      "selectedIconPath": "images/exam-sel.png"
     }, {
       "pagePath":"pages/user/user",
       "text": "个人中心",
-      "iconPath": "images/mine.png",
-      "selectedIconPath": "images/mine1.png"
+      "iconPath": "images/person.png",
+      "selectedIconPath": "images/person-sel.png"
     }]
   }
 }
