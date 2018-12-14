@@ -35,10 +35,10 @@ Page({
   onPullDownRefresh: function () {
     console.info("被拉下了")
   },
-  toPerson: function (e) {
+  toClass: function (e) {
     console.log(e)
     wx.navigateTo({
-      url: '../person/person?master=' + e.target.dataset.master
+      url: '../class/class?master=' + e.target.dataset.master
     })
   },
   upper: function () {

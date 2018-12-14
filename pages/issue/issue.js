@@ -6,16 +6,16 @@ Page({
     onLoad: function(ev) {
         console.log(ev)
     },
-    toPerson: function(e) {
+    toClass: function(e) {
         console.log(e)
         wx.navigateTo({
-          url: '../training/training?master=' + e.target.dataset.master
+          url: '../class/class?master=' + e.target.dataset.master
         })
     },
-    toPerson: function(e) {
+    toClass: function(e) {
         console.log(e)
         wx.navigateTo({
-          url: '../training/training?master='+e.currentTarget.dataset.master
+          url: '../class/class?master='+e.currentTarget.dataset.master
         })
     }
 })
