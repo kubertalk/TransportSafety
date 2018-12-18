@@ -18,7 +18,7 @@ Page({
     var that = this
     console.log('onLoad')
     wx.request({
-      url: 'http://elephstor.com/wxdev/feeds-init.json',
+      url: 'https://www.apiopen.top/satinApi?type=5&page=1',
       header: {
         'Content-Type': 'application/json'
       },
@@ -59,7 +59,7 @@ Page({
   getFeeds: function () {
     var that = this
     wx.request({
-      url: 'http://elephstor.com/wxdev/stamp1206.json',
+      url: 'https://www.apiopen.top/satinApi?type=5&page=2',
       header: {
         'Content-Type': 'application/json'
       },

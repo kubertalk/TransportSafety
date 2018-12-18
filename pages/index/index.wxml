@@ -1,14 +1,21 @@
 <!--index.wxml-->
 <scroll-view scroll-y="true" style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower">
-	<block wx:for="{{feedList}}">
-		<navigator class="scroll-view-item" url="../issue/issue?stamp={{item.stamp}}">
-			<text class="item-ques">{{item.question}}</text>
-			<view class="item-ans">
-				<image src="../../images/avatar/{{item.masterAvatar}}" mode="aspectFill" catchtap="toPerson" data-master="{{item.masterID}}"></image>
-				<view class="item-voice">1元偷偷听</view>
-				<view class="item-pv">{{item.pv}}</view>
-			</view>
-		</navigator>
+
+<block wx:for="{{feedList}}">
+		<video class="video"
+    id="myvideo"
+    src="{{item.videouri}}"
+    poster="{{item.bimageuri}}"
+    controls="true"
+    
+  ></video>
+  <navigator>
+  <text class='item-id'>{{item.name}}</text>	
+<view class="item-voice">学习该系列课程</view>
+<view class="item-desc">{{item.text}}</view>
+  </navigator>
+
+	
 	</block>
 </scroll-view>
 

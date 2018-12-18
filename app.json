@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/training/training",
     "pages/exam/exam",
     "pages/login/login",
@@ -24,6 +25,11 @@
     "backgroundColor": "#f9f9f9",
     "list": [
     {
+       "pagePath": "pages/index/index",
+      "text": "测试页面",
+      "iconPath": "images/training.png",
+      "selectedIconPath": "images/training-sel.png"
+    },{
       "pagePath": "pages/training/training",
       "text": "安全培训",
       "iconPath": "images/training.png",
